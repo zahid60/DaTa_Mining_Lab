@@ -58,7 +58,7 @@ print(x)
 '''Write a Python program to display the first and last colors from the following list. Go to the editor
 colorList == ["Red","Green","White" ,"Black"]'''
 
-colorList = ["Red", "Green", "White", "Black"]
+colorList = ["Red", "Green", "White", "Black","Pink"]
 print(colorList[0])  # Print the first element of the list
 print(colorList[-1])  # Print the last element of the list
 
