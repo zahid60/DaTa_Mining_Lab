@@ -1,6 +1,6 @@
 # Exercise 3.1.5[Lab Task]
 
-# Write a python program to find the sum of odd and even numbers from a set of numbers
+# Write a Python program to find the sum of odd and even numbers from a set of numbers
 print("*** Sum of ODD/EVEN numbers ***\n")
 
 
@@ -26,7 +26,7 @@ even_sum, odd_sum = sum_even_odd(numbers)
 print(f"Sum of even numbers: {even_sum}")
 print(f"Sum of odd numbers: {odd_sum}")
 
-# Write a python program to find the smallest number from a set of numbers
+# Write a Python program to find the smallest number from a set of numbers
 print("\n***Find the smallest number***")
 
 
@@ -54,7 +54,7 @@ if smallest_number is not None:
 else:
     print("No numbers entered.")
 
-# Write a python program to find the sum of all numbers between 50 and 100, which are divisible by 3 and not divisible by 5
+# Write a Python program to find the sum of all numbers between 50 and 100, which are divisible by 3 and not divisible by 5
 print("\n***Sum of 50-100 which is divisible by 3 but not divisible by 5***")
 sum = 0
 for i in range(50, 101):
@@ -62,7 +62,7 @@ for i in range(50, 101):
         sum += i
 print(f"Sum is: {sum} ")
 
-# Write a python program to find the second-highest number from a set of numbers
+# Write a Python program to find the second-highest number from a set of numbers
 print("\n***Find the second-highest number***")
 
 numbers = input("Enter a set of numbers : ").split()
@@ -74,7 +74,7 @@ else:
     second_highest = sorted(set(numbers), reverse=True)[1]
     print(f"The second highest number is: {second_highest}")
 
-# Write a python program to find the factorial of a number using for loop
+# Write a Python program to find the factorial of a number using for loop
 print("\n***Find the factorial of a number***")
 num = int(input("Enter a number: "))
 factorial = 1
@@ -82,7 +82,7 @@ for i in range(1, num + 1):
     factorial = factorial * i;
 print(f"The factorial of {num} is: {factorial}")
 
-# Write a python program to generate Fibonacci series
+# Write a Python program to generate Fibonacci series
 print("\n***Generate Fibonacci Series***")
 n = int(input("Enter the number: "))
 a, b = 0, 1
@@ -93,8 +93,9 @@ while count < n:
     a, b = b, a + b
     count += 1
 
+
 # Exercise 4.2[Lab Task ]
-# Write a python program to find the largest number between two numbers using function
+# Write a Python program to find the largest number between two numbers using function
 print("\n***Find the largest number between two numbers using function***")
 
 
@@ -124,7 +125,7 @@ elif result == 1:
 else:
     print("Enter valid number")
 
-# Write a python program to find the sum of the numbers passed as parameters
+# Write a Python program to find the sum of the numbers passed as parameters
 print("***\nSum of the numbers passed as parameters***")
 
 
